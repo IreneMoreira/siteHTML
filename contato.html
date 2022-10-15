@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <style>
+        html, body{
+            margin: 0;
+        }
+        body{
+            background-color: #f1f1f1;
+            display: flex;
+            justify-content: center;
+        }
+        .wrapper{
+            width: 1200px;
+            display: flex;
+            margin: 0 auto;
+            background-color: rgb(50, 226, 188);
+        }
+        .main{
+            display: flex;
+            flex-flow: column;
+            width: 85%;
+        }
+        .menu{
+            width: 15%;
+            padding: 10px 20px 0px;
+            border-radius: 10px;
+            border-color: black;
+            margin-left:  15px;
+        }
+        .header{
+            background-color: rgb(5, 108, 108);
+            min-height: 150px;
+        }
+        .content{
+            background-color: white;
+            min-height: 300px;
+            padding: 20px;
+        }
+        .footer{
+            background-color: rgb(50, 226, 188);
+            min-height: 150px;
+        }
+        fieldset{
+            margin: 15px 0;
+            border-radius: 10px;
+            border-color: rgb(101, 170, 167);
+        }
+        h1{
+            font-size: 27px ;
+            margin: 15px 0;
+            font-family: 'Times New Roman', Times, serif;
+            color: rgb(27, 83, 83);
+        }
+        h2{
+            font-size: 19px;
+            font-family: 'Times New Roman', Times, serif;
+            color: rgb(27, 83, 83);;
+        }
+        .cao{
+            margin-left: 30px;
+            margin-top: 20px;
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="menu">
+    
+            <img  class="cao" src="logo.png" width="80"><br>
+            <fieldset class="menu">CLINICA CANINA</fieldset>
+            <ul>
+                <li>Consulta Veterinária</li><br>
+                <li>Banho e Tosa</li><br>
+                <li>Tratamento dentário</li><br>           
+                <li>Ultrassonografia</li><br>
+                <li>Castração</li><br>
+                <li><a href="sobre.html" title="Clique aqui e confira:" target="_self">Conheça a unidade</a></li><br>
+                <li><a href="contato.html" title="Clique aqui e confira:" target="_self">Contato</a></li><br>
+                <li><a href="index.html"> Voltar<a></li>
+            </ul>
+        </div>
+        <div class="main">
+        <div class="reader">
+            <fieldset>
+           <h1>Clínica Veterinária emergência e urgência para cães e gatos e animais Silvestres</h1>
+            </fieldset>
+        </div>
+    
+        <div class="content">
+    
+           <h2>Conte conosco para cuidar do seu amigo!</h2>
+            <h4>Entre em contato para agendamento</h4>
+    <fieldset>
+        <form method="get">
+            <b><div class="row">
+            <label>Nome:</label><input type="text" name="name"><br>
+            <label>E-mail:</label><input type="E-mail"><br>
+            <label>Assunto:</label><input type="subject"><br>
+            <select name="role">
+            <option value="">Selecione o Assunto</option>
+                <option value="gerente">Consulta Veterinária</option>
+                <option value="Diretor">Banho e Tosa</option>
+                <option value="Presidente">Tratamento dentário</option>
+                <option value="Presidente">Ultrassonografia</option>
+                <option value="Presidente">Castração</option>
+            </select><br>
+            <label>Mensagem:</label></b> 
+            <textarea name="mensage"></textarea><br>    
+        </div> 
+        </form>
+        <button type="submit">Enviar</button>
+        <button type="reset">
+            Limpar
+        </button>
+    </fieldset>
+            
+        <center><img title="Cãezinhos correndo" src="cachorros-chegada.webp" width="450"></center>
+        <center><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d467692.04882613214!2d-46.875494669673245!3d-23.681531461051726!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce59ceb1eb771f%3A0xe904f6a669744da1!2sMuseu%20de%20Arte%20de%20S%C3%A3o%20Paulo%20Assis%20Chateaubriand!5e0!3m2!1spt-BR!2sbr!4v1665802131471!5m2!1spt-BR!2sbr" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></center>
+        </div>
+    
+        <div class="footer">
+            <blockquote><b>Precisa de atendimento? <br>Chame no WhatsApp ou Ligue para nós!
+            </b> </blockquote> 
+            <fieldset>
+            <b><p>Tel: 10 999999-9999</p></b>
+            <b><p>E-mail: clinicacanina@gmail.com</p></b>
+             </fieldset>
+             <fieldset>
+            <b><p>Av. Paulista, 1578 - Bela Vista, São Paulo - SP, 01310-200</p></b>
+             </fieldset>
+        </div>
+</body>
+</html>
